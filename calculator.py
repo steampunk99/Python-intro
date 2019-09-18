@@ -7,7 +7,7 @@ previous = 0
 def perfom_math():
     global run
     global previous
-    equation = input("Enter your equation")
+    equation = input("Enter your equation: ")
     if(equation == 'quit'):
         print("Byeee")
         run = False
