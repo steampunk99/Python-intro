@@ -14,3 +14,6 @@ def perfom_math():
     else:
         answer = eval(equation)
         print(answer)
+
+while run:
+    perfom_math()
