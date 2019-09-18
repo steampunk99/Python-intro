@@ -11,3 +11,6 @@ while playerHP > 0:
     if(playerHP <= 0):
         playerHP = 0
         print("You are dead")
+
+    print("Enemy strikes for", damage, "points of damage")
+    print("Current HP is ", playerHP)
