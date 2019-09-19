@@ -2,6 +2,8 @@ import random
 
 
 class Enemy:
+    hp = 200
+
     def __init__(self, attackLow, attackHigh):
         self.attackLow = attackLow
         self.attackHigh = attackHigh
@@ -9,11 +11,17 @@ class Enemy:
     def getAttack(self):
         print(self.attackHigh)
 
+    def getHP(self):
+        print("Enemy hp is", self.hp)
+
+
 enemy1 = Enemy(65, 89)
 enemy1.getAttack()
+enemy1.getHP()
 
 enemy2 = Enemy(44, 76)
 enemy2.getAttack()
+enemy2.getHP()
 '''
 playerHP = 5000
 enemyAttackLow = 60
