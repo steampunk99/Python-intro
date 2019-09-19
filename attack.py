@@ -10,6 +10,9 @@ class Enemy:
 
 enemy1 = Enemy()
 enemy1.getAttack()
+
+enemy2 = Enemy()
+enemy2.getAttack()
 '''
 playerHP = 5000
 enemyAttackLow = 60
